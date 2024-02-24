@@ -85,6 +85,17 @@ div >p{
     margin: 0;
 }
 
+footer{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    gap: 10px;
+    
+}
+
 @media screen and (min-width: 580px) and (max-width: 1175px){
     #countDown{
         display: flex;
