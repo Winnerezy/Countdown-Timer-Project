@@ -36,7 +36,7 @@ let currentDate = new Date();
 let currentYear = currentDate.getFullYear();
 let currentMonth = currentDate.getMonth();
 let currentDay = currentDate.getDate();
-const futureDates = new Date(currentYear, currentMonth, currentDay + 10, 9, 0, 0);
+const futureDates = new Date(currentYear, currentMonth, currentDay + 10, 9, 00, 0);
 
 console.log(futureDates);
 
@@ -91,3 +91,4 @@ countDownTimer();
 function padZero(value){
     return value < 10? "0" + value : value;
 }
+
