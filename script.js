@@ -36,7 +36,7 @@ let currentDate = new Date();
 let currentYear = currentDate.getFullYear();
 let currentMonth = currentDate.getMonth();
 let currentDay = currentDate.getDate();
-const futureDates = new Date(currentYear, currentMonth, currentDay + 10, 11, 30, 0);
+const futureDates = new Date(currentYear, currentMonth, currentDay + 10, 9, 0, 0);
 
 console.log(futureDates);
 
@@ -55,7 +55,7 @@ month = months[month];
 const weekDay = weekDays[futureDates.getDay()]
 const date = futureDates.getDate();
 //console.log(date);
-giveAway.textContent = `Giveaway Ends On ${weekDay}, ${date} ${month} ${year} At ${hour}:${minute}am `
+giveAway.textContent = `Count down Ends On ${weekDay}, ${date} ${month} ${year} At ${hour}:${minute}am `
 
 
 //console.log(weekDay);
