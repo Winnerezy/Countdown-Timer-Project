@@ -1,4 +1,4 @@
-const giveAway = document.getElementById("giveAway");
+const counting = document.getElementById("counting");
 const days = document.getElementById("days");
 const hours = document.getElementById("hours");
 const minutes = document.getElementById("minutes");
@@ -55,7 +55,7 @@ month = months[month];
 const weekDay = weekDays[futureDates.getDay()]
 const date = futureDates.getDate();
 //console.log(date);
-giveAway.textContent = `Count down Ends On ${weekDay}, ${date} ${month} ${year} At ${hour}:${minute}am `
+counting.textContent = `Count down Ends On ${weekDay}, ${date} ${month} ${year} At ${hour}:${minute}am `
 
 
 //console.log(weekDay);
