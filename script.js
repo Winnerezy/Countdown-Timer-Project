@@ -56,7 +56,7 @@ month = months[month];
 const weekDay = weekDays[futureDates.getDay()]
 const date = futureDates.getDate();
 //console.log(date);
-counting.textContent = `Count Down Ends On ${weekDay}, ${date} ${month} ${year} At ${hour}:${minute}am `
+counting.textContent = `Count Down Ends On ${weekDay}, ${date} ${month} ${year} At ${hour}:${minute}AM `
 
 
 //console.log(weekDay);
