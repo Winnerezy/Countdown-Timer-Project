@@ -44,14 +44,15 @@ console.log(futureDates);
 const year = futureDates.getFullYear();
 // console.log(currentDate)
 let month = futureDates.getMonth();
-console.log(month)
+//console.log(month)
 const hour = futureDates.getHours();
 const minute = futureDates.getMinutes();
 const second = futureDates.getSeconds();
 
-//gets the current month for the array
+//gets the current month from the months array
 month = months[month];
 
+//getting the day of 10 days ahead from the weekDays array
 const weekDay = weekDays[futureDates.getDay()]
 const date = futureDates.getDate();
 //console.log(date);
